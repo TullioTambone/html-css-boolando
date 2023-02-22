@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*colori*/
+
+.red{
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    padding: 2px;
+}
+/* header */
+header{
+    background-color: rgb(255, 124, 1);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999999;
+}
+
+nav{
+    margin: 0 auto;
+    width: 65%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+nav img{
+    width: 20%;
+}
+
+nav ul li a{
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    margin: 5px;
+}
+
+.Font-Awesome a i{
+    color: white;
+    margin: 2px;
+}
+/* main */
+
+.box{
+    margin: 0 auto;
+    margin-top: 50px ;
+    margin-bottom: 150px;
+    width: 60%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.heart{
+    background-color: white;
+    padding: 5px 10px;
+    right: 0;
+    top: 10px;
+    font-size: large;
+    z-index: 99;
+}
+
+.heart:hover{
+    color: red;
+}
+
+.var{
+    bottom: 50px;
+    z-index: 99;
+}
+.card{
+    flex-basis: calc((100% / 3) - 10px);
+    margin-top: 50px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.money{
+    color: red;
+}
+
+.discount{
+    text-decoration: line-through;
+}
+
+.card .jumpscare{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.card:hover .jumpscare{
+    display: inline;
+}
+
+
+/* footer */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-top: 20px;
+    background-color: #181a1c;
+    color: white;
+    z-index: 99999999999999999999;
+}
+
+.foot{
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+}
+
+.foot ul li a{
+    font-size: small;
+    color: white;
+}
+
+.social a i{
+    color: white;
+    margin:2px;
+}
